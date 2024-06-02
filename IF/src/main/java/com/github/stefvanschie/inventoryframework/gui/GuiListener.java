@@ -354,8 +354,8 @@ public class GuiListener implements Listener {
         if (!gui.isUpdating()) {
             gui.callOnClose(event);
 
-            event.getInventory().clear(); //clear inventory to prevent items being put back
-
+            //pd
+            
             gui.getHumanEntityCache().restoreAndForget(humanEntity);
 
             if (gui.getViewerCount() == 1) {
